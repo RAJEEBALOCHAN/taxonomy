@@ -1,0 +1,62 @@
+---
+created_by: Rajeebalochan
+version: 2
+domain: csr
+seed_examples:
+  - answer: >
+      IBM SkillsBuild is a free education program focused on underrepresented communities
+      in tech, that helps adult learners, and high school and university students and faculty,
+      develop valuable new skills and access career opportunities. The program includes an online
+      platform that is complemented by customized practical learning experiences delivered in
+      collaboration with a global network of partners.
+    question: What is SkillsBuild?
+  - answer: >
+        Yes, IBM SkillsBuild is a free education program focused on underrepresented communities
+        in tech, that helps adult learners, and high school and university students and faculty,
+        develop valuable new skills and access career opportunities. The program includes an online
+        platform that is complemented by customized practical learning experiences delivered in
+        collaboration with a global network of partners.
+    question: Is SkillsBuild a free program?
+  - answer: >
+        The open version of IBM SkillsBuild is an online platform which offers free education
+        to adults and high school students. IBM's SkillBuild programs range from technical education
+        for teens at brick-and-mortar public schools and universities, and extend to paid, on-site
+        IBM internships and apprenticeships. It also includes collaborations with universities and
+        key government entities -- including employment agencies. Partnerships extend to NGOs as well,
+        particularly those that focus on groups such as underserved youth, women, and military veterans.
+    question: Who can use SkillsBuild?
+  - answer: >
+        The open version of IBM SkillsBuild is an online platform which offers over 1,000 courses
+        in 20 languages on artificial intelligence, cybersecurity, data analysis, cloud computing
+        and many other technical disciplines — as well as in workplace skills such as Design Thinking.
+        Most important, participants can earn IBM-branded digital credentials that are recognized
+        by the market.
+    question: What courses does SkillsBuild offer?
+  - answer: >
+        Yes, participants in our IBM SkillsBuild programs can earn IBM-branded digital credentials
+        that are recognized by the market. IBM SkillsBuild offers over 1,000 courses in 20
+        languages on artificial intelligence, cybersecurity, data analysis, cloud computing
+        and many other technical disciplines — as well as in workplace skills such as Design Thinking.
+    question: Can I earn credentials by taking courses in SkillsBuild?
+  - answer: >
+        The open version of IBM SkillsBuild offers over 1,000 courses in 20 languages on
+        artificial intelligence, cybersecurity, data analysis, cloud computing and many other
+        technical disciplines — as well as in workplace skills such as Design Thinking. Most
+        important, participants can earn IBM-branded digital credentials that are recognized by the market.
+    question: What courses are offered by SkillsBuild?
+  - answer: >
+        Visit our IBM SkillsBuild website (https://skillsbuild.org) to learn more about our programs.
+    question: Where can I learn more about SkillsBuild?
+  - answer: >
+        In Japan, IBM partners with Osaka Municipal Government and Osaka Roudou Kyokai (NPO)
+        to offer SkillsBuild for Job Seekers in Osaka Prefecture, helping them to obtain IT
+        skills and earn tech-related jobs. IBM's curricula include introductions to AI and
+        cloud computing, particularly for positions like help desk specialist, web developer,
+        and data analyst.
+    question: Does SkillsBuild work with any partners in Japan?
+task_description: To teach a language model about IBM SkillsBuild
+document:
+  repo: https://github.com/RAJEEBALOCHAN/csr_instructlab_knowledge.git
+  commit: 65ace592c0d7fe8ba5e6b95ebb8b11a86e89cb05
+  patterns:
+    - SkillsBuild/IBM_SkillsBuild.md
